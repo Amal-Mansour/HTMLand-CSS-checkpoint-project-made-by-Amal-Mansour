@@ -1,0 +1,130 @@
+
+body{
+    margin:0;
+    padding:0;
+    background: url("../images/favorit.gif")  center fixed;
+    background-size:cover;
+}
+
+
+
+
+.topnav{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+  display: block;
+  padding:10px;
+  background-color:transparent;
+  
+
+}
+
+  a{
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:large;
+    font-size: 20px;
+  }
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    width: 10%;
+}
+
+
+
+.greeting{
+    color: #005ce6;
+    padding: 150px;
+   text-align: center;
+   font-size: 250%;
+
+}
+
+
+b , i{
+    text-decoration: underline;
+    color:white;
+}
+
+
+.leg{
+    margin:0em;
+    color:white;
+    font-size:40px;
+}
+
+
+.sel{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+
+.myBtn{
+    display: inline-block;
+    background-color: #0983ac;
+    width: 300px;
+    font-size: 20px;
+    padding: 14px 40px;
+    border-radius: 12px;
+    margin :4em;
+}
+
+
+.myBtn:hover {background-color:#005ce6}
+
+.myBtn:active {
+  background-color:rgb(132, 176, 246); ;
+  box-shadow: 0 5px rgb(73, 25, 204);
+  transform: translateY(4px);
+}
+
+.text{
+width: 80%;
+height: 150px;
+padding: 12px 20px;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
+background-color: #f8f8f8;
+resize: none;
+display: inline;
+margin: 2em;
+margin-left:10%;
+
+
+}
+
+
+
+
+.foot{
+    text-align: center;
+    text-emphasis: none;
+    text-decoration:large;
+    font-size:20px ;
+
+}
+
+
+
+.upBtn{
+    background-color: #008CBA;
+    font-size: 20px;
+    padding: 14px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
